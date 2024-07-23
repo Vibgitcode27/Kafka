@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc -b && node dist/index.js"
+    "start-producer": "tsc -b && node dist/producer.js",
+    "start-consumer": "tsc -b && node dist/consumer.js"
+
   },
   "keywords": [],
   "author": "",
